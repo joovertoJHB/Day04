@@ -6,19 +6,30 @@
 /*   By: jooverto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 11:38:44 by jooverto          #+#    #+#             */
-/*   Updated: 2020/07/13 13:58:35 by jooverto         ###   ########.fr       */
+/*   Updated: 2020/07/15 11:26:47 by jooverto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include 	<unistd.h>
+#include <unistd.h>
+#include <stdio.h>
 
 int		ft_iterative_factorial(int nb)
 {
-	if ( nb > 1)
+	int		x;
+	int		result;
+
+	result = 1;	
+	x = 1;
+
+	while( x <= nb)
 	{
-		return(nb * (nb - 1));
+		result = result * x;
+		x++;
 	}
-	return(0);	
+	 
+	return(result);	
+
 }
+
 
 
