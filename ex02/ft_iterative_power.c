@@ -6,7 +6,7 @@
 /*   By: jooverto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/15 11:33:38 by jooverto          #+#    #+#             */
-/*   Updated: 2020/07/15 11:37:07 by jooverto         ###   ########.fr       */
+/*   Updated: 2020/07/15 15:06:26 by jooverto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int     ft_iterative_power(int nbr, int power)
 		result = result * nbr;
 		--power;
 	}	
-	return(result);
+	return(result)
 }
 
 int     main()

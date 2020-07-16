@@ -6,7 +6,7 @@
 /*   By: jooverto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/15 14:23:01 by jooverto          #+#    #+#             */
-/*   Updated: 2020/07/15 14:50:12 by jooverto         ###   ########.fr       */
+/*   Updated: 2020/07/15 15:50:51 by jooverto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,4 +31,9 @@ int		ft_recursive_power(int nb, int power)
 	return(0);
 }
 
+int		main()
+{
+	printf("%d",ft_recursive_power(3, 3));
+	return(0);
+}
 
